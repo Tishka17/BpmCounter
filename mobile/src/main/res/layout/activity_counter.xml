@@ -28,7 +28,7 @@
                     android:layout_margin="16dp">
 
                     <TextView
-                        android:id="@+id/nowCount"
+                        android:id="@+id/average_bpm"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
@@ -37,16 +37,16 @@
                         android:textSize="100sp" />
 
                     <TextView
-                        android:id="@+id/prevCount"
+                        android:id="@+id/prev_count"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignBaseline="@+id/nowCount"
+                        android:layout_alignBaseline="@+id/average_bpm"
                         android:layout_alignParentLeft="true"
                         android:text="@string/no_value"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/prevAmount"
+                        android:id="@+id/prev_bpm"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -56,16 +56,16 @@
 
 
                     <TextView
-                        android:id="@+id/count"
+                        android:id="@+id/current_count"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignBaseline="@+id/nowCount"
+                        android:layout_alignBaseline="@+id/average_bpm"
                         android:layout_alignParentRight="true"
                         android:text="@string/no_value"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/amount"
+                        android:id="@+id/current_bpm"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
